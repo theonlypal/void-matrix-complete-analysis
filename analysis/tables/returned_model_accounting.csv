@@ -1,0 +1,12 @@
+provider,requested_model,total_trials,trials_with_returned_identifier,exact_matches,substantive_mismatches,missing_returned_identifiers,missing_due_to_operational_outcome,missing_despite_successful_http,exact_match_rate_among_present
+anthropic,claude-fable-5,2680,2680,2680,0,0,0,0,1.0
+anthropic,claude-opus-4-6,3180,3180,3180,0,0,0,0,1.0
+anthropic,claude-opus-5,2680,2680,2680,0,0,0,0,1.0
+google,gemini-3.5-flash,3180,3180,3180,0,0,0,0,1.0
+moonshot,kimi-k3,2680,2679,2679,0,1,1,0,1.0
+openai,gpt-4-0613,3130,3130,3130,0,0,0,0,1.0
+openai,gpt-5.2-2025-12-11,3180,3180,3180,0,0,0,0,1.0
+openai,gpt-5.5-2026-04-23,2680,2668,2668,0,12,12,0,1.0
+openai,gpt-5.6-luna,2680,2679,2679,0,1,1,0,1.0
+openai,gpt-5.6-sol,2680,2670,2670,0,10,10,0,1.0
+openai,gpt-5.6-terra,2680,2678,2678,0,2,2,0,1.0

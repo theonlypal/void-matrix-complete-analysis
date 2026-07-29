@@ -1,0 +1,22 @@
+flow_node,count,parent,definition
+scheduled_slots,31430,,sealed schedule
+attempts_initiated,31484,scheduled_slots,includes retry attempts
+additional_retry_attempts,54,attempts_initiated,raw attempts beyond one per final slot
+recovered_final_slots,53,final_completed_slots,52 completed on attempt 2; 1 on attempt 3
+final_completed_slots,31430,scheduled_slots,exactly one final completion per slot
+successful_http_final_slots,31404,final_completed_slots,HTTP 2xx final observations
+operational_nonvoid_final_slots,26,final_completed_slots,BE/QE/E/PI
+successful_classified_outcomes,31404,final_completed_slots,all non-operational final classes
+class_V0,7328,final_completed_slots,frozen terminal classification
+class_V1,2565,final_completed_slots,frozen terminal classification
+class_V2,1765,final_completed_slots,frozen terminal classification
+class_VU,0,final_completed_slots,frozen terminal classification
+class_NV,2348,final_completed_slots,frozen terminal classification
+class_R,16562,final_completed_slots,frozen terminal classification
+class_RF,835,final_completed_slots,frozen terminal classification
+class_SB,1,final_completed_slots,frozen terminal classification
+class_TC,0,final_completed_slots,frozen terminal classification
+class_BE,25,final_completed_slots,frozen terminal classification
+class_QE,0,final_completed_slots,frozen terminal classification
+class_E,1,final_completed_slots,frozen terminal classification
+class_PI,0,final_completed_slots,frozen terminal classification

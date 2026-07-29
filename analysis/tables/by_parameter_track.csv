@@ -1,0 +1,3 @@
+parameter_track,total,V0,V1,V2,VU,NV,R,RF,SB,TC,BE,QE,E,PI,void_total,normal_stop_void_total,budget_stop_void_total,void_rate,normal_stop_void_rate,successful_http
+provider_default,29430,6731,2465,1465,0,2197,15710,835,1,0,25,0,1,0,10661,8196,2465,0.36224940536867145,0.2784913353720693,29404
+temperature_zero,2000,597,100,300,0,151,852,0,0,0,0,0,0,0,997,897,100,0.4985,0.4485,2000

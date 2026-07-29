@@ -1,0 +1,31 @@
+{
+  "any_void": 11658,
+  "class_counts": {
+    "BE": 25,
+    "E": 1,
+    "NV": 2348,
+    "PI": 0,
+    "QE": 0,
+    "R": 16562,
+    "RF": 835,
+    "SB": 1,
+    "TC": 0,
+    "V0": 7328,
+    "V1": 2565,
+    "V2": 1765,
+    "VU": 0
+  },
+  "final_trials": 31430,
+  "logical_null_any": 1173,
+  "logical_null_normal": 681,
+  "logical_pairs": 2200,
+  "logical_yes_any": 225,
+  "logical_yes_normal": 0,
+  "normal_stop_void": 9093,
+  "output_licensed_controls_n": 12340,
+  "strict_matched_control_any": 0,
+  "strict_matched_control_normal": 0,
+  "strict_matched_null_any": 2505,
+  "strict_matched_null_normal": 2504,
+  "strict_matched_pairs": 4290
+}

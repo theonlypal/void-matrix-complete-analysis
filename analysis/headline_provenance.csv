@@ -1,0 +1,10 @@
+headline,source_filter,authoritative_output,generating_function,status,final_trial_count,strict_matched_pair_count,logical_pair_count
+All Void subtypes,"classification in {V0,V1,V2,VU}",tables/trial_level.csv,void_observed sum / all final rows,PASS,31430,4290,2200
+Normal-stop Voids,"classification in {V0,V2}",tables/trial_level.csv,normal_stop_void sum / all final rows,PASS,31430,4290,2200
+Null/equivalent role versus all output-licensed controls,role == null versus role == control,statistical_tables.csv,statistical_analysis(): null_vs_control,PASS,31430,4290,2200
+Strict matched semantic pairs,core_silence/matched_speech; core_nothing/matched_something; core_null/matched_value,tables/matched_analysis.csv,matched_tables() + matched_analysis(),PASS,31430,4290,2200
+Logical null/yes pairs,logical_null versus logical_yes,tables/logical_analysis.csv,matched_tables() + logical_analysis(),PASS,31430,4290,2200
+"16,000-token Void result",budget == 16000,tables/by_budget.csv,aggregate_dimension(),PASS,31430,4290,2200
+Cross-provider/model replication,void_observed == true,tables/by_provider.csv; tables/by_model.csv,provider/model unique counts,PASS,31430,4290,2200
+Raw verification,all frozen raw records; independent claim-directed subset,integrity_report.md; raw_audit_manifest.csv,frozen verifier + raw_audit(),PASS,31430,4290,2200
+Returned-model identity,returned_model present/exact/missing,tables/returned_model_accounting.csv,returned_model_accounting(),PASS,31430,4290,2200

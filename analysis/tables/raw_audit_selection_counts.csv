@@ -1,0 +1,6 @@
+selection_reason,selected_count_including_overlaps,unique_selected_total
+all_16000_token_voids,313,1257
+all_rare_operational_outcomes,862,1257
+boundary_record_overlap,30,1257
+first_and_last_final_records,2,1257
+first_two_per_model_class,95,1257

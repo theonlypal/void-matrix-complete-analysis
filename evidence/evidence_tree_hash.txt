@@ -1,0 +1,9 @@
+Original definitive evidence-tree checksum-list SHA-256:
+309cd9a77cdd6a6bf4ff733ca446163d170cb65e4ebfaac70d34f5c293481cc9
+
+The original checksum list was generated over every regular file in the completed
+master workspace, excluding only .git, using absolute source paths in byte-sorted
+order. The public derivative uses portable source-relative paths and excludes only
+Git implementation metadata, operating-system metadata, Python bytecode and caches,
+and editor temporary files. Its checksum-list SHA-256 is recorded in
+EVIDENCE_MANIFEST.json.

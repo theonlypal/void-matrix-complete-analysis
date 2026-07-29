@@ -1,0 +1,34 @@
+{
+  "schema": "void-matrix-evidence-manifest/v1",
+  "source_runner_commit": "2dfe895bdafd35d23d6dab5f307ed560214a3843",
+  "source_runner_tag": "v1.0.0-definitive-runner",
+  "source_manifest_state": "SOURCE_SEALED",
+  "source_master_tree_checksum_list_sha256": "309cd9a77cdd6a6bf4ff733ca446163d170cb65e4ebfaac70d34f5c293481cc9",
+  "public_derivative_file_count": 31523,
+  "public_derivative_uncompressed_bytes": 1265668862,
+  "public_derivative_checksum_list": "evidence/EVIDENCE_SHA256SUMS.txt",
+  "public_derivative_checksum_list_sha256": "edc950533285355510172ddca395b1536a71a3f32ce55409065a10cb24199e32",
+  "public_derivative_inventory": "evidence/evidence_file_inventory.csv",
+  "public_derivative_inventory_sha256": "1f19b1f81e14948d8529dd77fa3f3af4d984f5906714f58c4b43ece0235d4a11",
+  "verification": {
+    "valid": true,
+    "scheduled_trials": 31430,
+    "completed_trials": 31430,
+    "raw_records_verified": 31484,
+    "event_hashes_replayed": 62968,
+    "pending": 0,
+    "incomplete_attempts": 0,
+    "orphan_raw_responses": 0,
+    "event_chain_errors": 0,
+    "raw_file_set_sha256": "cb8f43f0f97e6ed0893cd2f8358b94d30afc4e5a036354ee05ef65f694b7b839",
+    "event_chain_head": "b3a01f4178e750532bb79d1c5efc2654a6d76cab31e536f1dead9ca756369460",
+    "events_jsonl_sha256": "acf4b13af758784f657075ee7a9dda3192ccba45d025d033bc443e4bbe4d18d9"
+  },
+  "excluded_categories": [
+    ".git metadata",
+    "operating-system metadata (.DS_Store and __MACOSX)",
+    "Python bytecode and cache directories",
+    "editor swap and temporary files"
+  ],
+  "scientific_outcome_categories_removed": []
+}
